@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Muli&display-swap);
+body {
+  background: #151C5A;
+  font-family: "Muli, sans-serif";
+}
+
+@media only screen and (max-width: 600px) {
+  .main__description--title {
+    font-size: 30px;
+  }
+  .footer {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  background: #151C5A;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=App.css.map */
