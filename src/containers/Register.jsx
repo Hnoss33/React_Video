@@ -12,7 +12,7 @@ function Register() {
             <input className='input' type='text' placeholder='Nombre' />
             <input className='input' type='text' placeholder='Correo' />
             <input className='input' type='password' placeholder='Contraseña' />
-            <button className='button'>Registrarme</button>
+            <button className='button'> Registrarme </button>
           </form>
           <Link to='login'>
             Iniciar sesión
