@@ -8,17 +8,18 @@
  min-height: calc(100vh - 200px);
 
  &__container {
-   background-color: rgba(255,255,255,0.1);
-   border: 2px solid white;
-   border-radius: 40px;
-   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-   color: white;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   min-height: 600px;
-   padding: 60px 68px 40px;
-   width: 300px;
+  background-color: rgba(255,255,255,0.03);
+  // border: 2px solid white;
+  border-radius: 15px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ text-align: center;
+  min-height: 700px;
+  padding: 50px 50px 50px;
+  width: 400px;
 
    a {
      color: white;
